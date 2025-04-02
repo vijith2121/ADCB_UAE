@@ -1,5 +1,20 @@
 import scrapy
 
 class Product(scrapy.Item):
-    title = scrapy.Field()
-    link = scrapy.Field()
+    cid_no = scrapy.Field()
+    nationality = scrapy.Field()
+    passport_no = scrapy.Field()
+    name = scrapy.Field()
+    gender = scrapy.Field()
+    date_of_birth = scrapy.Field()
+    total_os = scrapy.Field()
+    employer_name = scrapy.Field()
+    Mobile_Number = scrapy.Field()
+    Office_Numbers = scrapy.Field()
+    Reference_name_mobile = scrapy.Field()
+    Email_ID = scrapy.Field()
+    Home_Country_Number = scrapy.Field()
+    Designation_Occupation = scrapy.Field()
+    Emirates_id = scrapy.Field()
+    address = scrapy.Field()
+    Residence_number = scrapy.Field()

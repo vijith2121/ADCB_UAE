@@ -35,3 +35,5 @@ ITEM_PIPELINES = {
     "ADCB_UAE.pipelines.JsonWriterPipeline": 1,
 }
 AUTOTHROTTLE_ENABLED = True
+
+
