@@ -18,3 +18,5 @@ class Product(scrapy.Item):
     Emirates_id = scrapy.Field()
     address = scrapy.Field()
     Residence_number = scrapy.Field()
+    scrape_date = scrapy.Field()
+    Region = scrapy.Field()

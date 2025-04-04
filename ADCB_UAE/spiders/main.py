@@ -4,7 +4,8 @@ from lxml import html
 import os
 import re
 from scrapy_playwright.page import PageMethod
-import html as html_parser
+from datetime import date
+
 
 
 def clean(text):
@@ -15,29 +16,16 @@ def clean(text):
 class AdcbUaeSpider(scrapy.Spider):
     name = "ADCB_UAE"
 
-    custom_settings = {
-        "PLAYWRIGHT_BROWSER_TYPE": "chromium",
-        "DOWNLOAD_HANDLERS": {"http": "scrapy_playwright.handler.ScrapyPlaywrightDownloadHandler"},
-        "TWISTED_REACTOR": "twisted.internet.asyncioreactor.AsyncioSelectorReactor",
-        "PLAYWRIGHT_DEFAULT_NAVIGATION_TIMEOUT": 30000,
-    }
-
     def start_requests(self):
         folder_path = os.path.dirname(os.path.abspath(__file__))
         for file_name in os.listdir(folder_path):
             if file_name.endswith(".mhtml"):
-                # file_path = f"file://{os.path.abspath(os.path.join(folder_path, file_name))}"
-                # file_path = 'file:///home/vijith/Downloads/DHANOOP%20KALLINGAPURAM%20SUDHARMAN.mhtml'
-                # file_path = 'file:///home/vijith/Desktop/vijith/spiders/ADCB_UAE/ADCB_UAE/spiders/878561.mhtml'
-                # file_path = 'file:///home/vijith/Downloads/DHANOOP%20KALLINGAPURAM%20SUDHARMAN.mhtml'
-                # print(file_path)
-                # file_path = 'file:///home/vijith/Downloads/DHANOOP%20KALLINGAPURAM%20SUDHARMAN.mhtml'
-                file_path = 'file:///home/vijith/Desktop/vijith/spiders/ADCB_UAE/ADCB_UAE/spiders/878561.mhtml'
+                file_path = f"file://{os.path.abspath(os.path.join(folder_path, file_name))}"
                 yield scrapy.Request(
                     url=file_path,
                     callback=self.parse,
                 )
-                return
+                # return
 
     def parse(self, response):
         parser = html.fromstring(response.text)
@@ -147,9 +135,20 @@ class AdcbUaeSpider(scrapy.Spider):
             Residence_number = ''
         if '</td>' in Residence_number:
             Residence_number = Residence_number.split('</td>')[0].strip()
+        
+        try:
+            Region = [
+                item for item in str(cleaned_text).split('Region')[-1].strip().split('</td>') if item.strip()
+                ][0].split('nowrap="">')[-1].strip().replace('=', '').strip().split('"data">')[-1].replace('&nbsp;', '')
+        except Exception as e:
+            print(e)
+            Region = ''
+        if '</td>' in Region:
+            Region = Region.split('</td>')[0].strip()
 
         address1 = address1.split('</td>')[0].strip() if '</td>' in address1 else address1
         address = clean(', '.join(list(filter(None, [address1,address2,address3]))))
+        scrape_date = date.today()
         items = parser.xpath(xpath_data)
         data = {}
         for item in items:
@@ -166,26 +165,27 @@ class AdcbUaeSpider(scrapy.Spider):
                 cid_no = clean(''.join(data_items.get('CID No.', '')).strip())
                 nationality_passport = data_items.get('Nationality  /  Passport', '').split('/')
                 nationality, passport_no = clean(''.join(nationality_passport[0]).strip()), clean(''.join(nationality_passport[-1]).strip())
-                data['cid_no'] = cid_no
-                data['nationality'] = nationality
-                data['passport_no'] = passport_no
+                data['cid_no'] = cid_no.replace('&nbsp;', '') if cid_no else ''
+                data['nationality'] = nationality.replace('&nbsp;', '') if nationality else ''
+                data['passport_no'] = passport_no.replace('&nbsp;', '') if passport_no else ''
             elif 'Name' in data_items:
                 gender_date_of_birth = data_items.get('Gender  /  Date Of Birth', '').split('/')
                 gender, date_of_birth = gender_date_of_birth[0].strip(), gender_date_of_birth[-1].strip()
-                office_number = data_items.get('Office1  /  Office 2 Number', '').replace('/', '').strip()
-                data['name'] = clean(data_items.get('Name', ''))
-                data['gender'] = clean(gender)
-                data['date_of_birth'] = clean(date_of_birth)
-
-        data['total_os'] = clean(total_os_elements) if total_os_elements else None
-        data['employer_name'] = clean(employer_name) if employer_name else None
-        data['Mobile_Number'] = clean(Mobile_Number) if Mobile_Number else None
-        data['Office_Numbers'] = clean(Office_Numbers) if Office_Numbers else None
-        data['Reference_name_mobile'] = clean(Ref_name_mobile) if Ref_name_mobile else None
-        data['Email_ID'] = clean(Email_ID) if Email_ID else None
-        data['Home_Country_Number'] = clean(Home_Country_Number) if Home_Country_Number else None
-        data['Designation_Occupation'] = clean(Designation_Occupation) if Designation_Occupation else None
-        data['Emirates_id'] = clean(Emirates_id) if Emirates_id else None
-        data['address'] = clean(address) if address else None
-        data['Residence_number'] = clean(Residence_number) if Residence_number else None
+                # office_number = data_items.get('Office1  /  Office 2 Number', '').replace('/', '').strip()
+                data['name'] = clean(data_items.get('Name', '')).replace('&nbsp;', '')
+                data['gender'] = clean(gender).replace('&nbsp;', '')
+                data['date_of_birth'] = clean(date_of_birth).replace('&nbsp;', '')
+        data['total_os'] = clean(total_os_elements).replace('&nbsp;', '') if total_os_elements else None
+        data['employer_name'] = clean(employer_name).replace('&nbsp;', '') if employer_name else None
+        data['Mobile_Number'] = clean(Mobile_Number).replace('&nbsp;', '') if Mobile_Number else None
+        data['Office_Numbers'] = clean(Office_Numbers).replace('&nbsp;', '') if Office_Numbers else None
+        data['Reference_name_mobile'] = clean(Ref_name_mobile).replace('&nbsp;', '') if Ref_name_mobile else None
+        data['Email_ID'] = clean(Email_ID).replace('&nbsp;', '') if Email_ID else None
+        data['Home_Country_Number'] = clean(Home_Country_Number).replace('&nbsp;', '') if Home_Country_Number else None
+        data['Designation_Occupation'] = clean(Designation_Occupation).replace('&nbsp;', '') if Designation_Occupation else None
+        data['Emirates_id'] = clean(Emirates_id).replace('&nbsp;', '') if Emirates_id else None
+        data['address'] = clean(address).replace('&nbsp;', '') if address else None
+        data['Residence_number'] = clean(Residence_number).replace('&nbsp;', '') if Residence_number else None
+        data['scrape_date'] = str(scrape_date).replace('&nbsp;', '') if scrape_date else ''
+        data['Region'] = str(Region).replace('&nbsp;', '') if Region else ''
         yield Product(**data)
