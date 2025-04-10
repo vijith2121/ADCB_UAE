@@ -16,8 +16,10 @@ class AdcbUaeSpider(scrapy.Spider):
 
     def start_requests(self):
         folder_path = os.path.dirname(os.path.abspath(__file__))
+        c = 0
         for file_name in os.listdir(folder_path):
             if file_name.endswith(".mhtml") and '-' not in file_name:
+                c += 1
                 # print(file_name)
                 file_path = f"file://{os.path.abspath(os.path.join(folder_path, file_name))}"
                 yield scrapy.Request(
@@ -25,6 +27,7 @@ class AdcbUaeSpider(scrapy.Spider):
                     callback=self.parse,
                 )
                 # return
+        print(f'Request count : {c}')
 
     def parse(self, response):
         parser = html.fromstring(response.text)
