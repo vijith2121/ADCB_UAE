@@ -150,8 +150,8 @@ class AdcbUaeSpider(scrapy.Spider):
 
         address1 = address1.split('</td>')[0].strip() if '</td>' in address1 else address1
         address = clean(', '.join(list(filter(None, [address1,address2,address3]))))
-        # scrape_date = date.today()
-        scrape_date = '2025-04-12'
+        scrape_date = date.today()
+        # scrape_date = '2025-04-12'
         items = parser.xpath(xpath_data)
         data = {}
         for item in items:
