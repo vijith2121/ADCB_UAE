@@ -170,7 +170,7 @@ class AdcbUaeSpider(scrapy.Spider):
                 nationality, passport_no = clean(''.join(nationality_passport[0]).strip()), clean(''.join(nationality_passport[-1]).strip())
                 data['cid_no'] = cid_no.replace('&nbsp;', '') if cid_no else ''
                 data['nationality'] = nationality.replace('&nbsp;', '') if nationality else ''
-                data['passport_no'] = passport_no.replace('&nbsp;', '') if passport_no else ''
+                data['passport_no'] = passport_no.replace('&nbsp;', '').replace('td> 09 09', '') if passport_no else ''
             elif 'Name' in data_items:
                 gender_date_of_birth = data_items.get('Gender  /  Date Of Birth', '').split('/')
                 gender, date_of_birth = gender_date_of_birth[0].strip(), gender_date_of_birth[-1].strip()
