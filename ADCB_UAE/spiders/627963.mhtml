@@ -1,16 +1,16 @@
 From: <Saved by Blink>
 Snapshot-Content-Location: https://collection.adcb.com/Orbicollect/ControllerServlet?event=menuEvt&subevent=callIndexSubEvt&menuInvocation=true
 Subject: Intellect Collect
-Date: Fri, 2 May 2025 14:36:20 +0400
+Date: Fri, 2 May 2025 17:26:37 +0400
 MIME-Version: 1.0
 Content-Type: multipart/related;
 	type="text/html";
-	boundary="----MultipartBoundary--2QPvZ9iLxdyDymdyYLyMvY6hcKG2MvsazcLP9N7yzN----"
+	boundary="----MultipartBoundary--P4BZVvdizwF6P8c6J3e3Onj5W6AJAK9d0lxz6lJLI1----"
 
 
-------MultipartBoundary--2QPvZ9iLxdyDymdyYLyMvY6hcKG2MvsazcLP9N7yzN----
+------MultipartBoundary--P4BZVvdizwF6P8c6J3e3Onj5W6AJAK9d0lxz6lJLI1----
 Content-Type: text/html
-Content-ID: <frame-8D8B913EA58EC14BAFE0AA7C3B54D92A@mhtml.blink>
+Content-ID: <frame-62E8CFC90C1134E2E67CF7C7C00F898F@mhtml.blink>
 Content-Transfer-Encoding: quoted-printable
 Content-Location: https://collection.adcb.com/Orbicollect/ControllerServlet?event=menuEvt&subevent=callIndexSubEvt&menuInvocation=true
 
@@ -35,28 +35,28 @@ al_module_scss.css"></head>=20
 %,130%,0,0,0,21%" noresize=3D"">=20
 		<!--<frameset  border=3D0 frameborder=3D0  framespacing=3D0 rows=3D"0%,5%=
 ,130%,0,0,0,5%" noresize>!-->
-		<frame src=3D"cid:frame-85B365B6B0CE72B4F0896884B5437D3F@mhtml.blink" nam=
+		<frame src=3D"cid:frame-29AD972F5EB831DC47D23ACE57C35AC4@mhtml.blink" nam=
 e=3D"pmtop" border=3D"0" frameborder=3D"0" scrolling=3D"no" marginwidth=3D"=
 0" marginheight=3D"0" topmargin=3D"0" leftmargin=3D"0" noresize=3D"">
-		<frame src=3D"cid:frame-103CE0775CD9D934B2D0A05E54CEA0DB@mhtml.blink" nam=
+		<frame src=3D"cid:frame-49B99BC3174440BA84D94F4B78E29305@mhtml.blink" nam=
 e=3D"menu" scrolling=3D"no" border=3D"0" frameborder=3D"0" marginwidth=3D"0=
 " marginheight=3D"0" topmargin=3D"0" leftmargin=3D"0" noresize=3D"">
 	   <!--Modified by Aarthy.S on 08-Feb-12 to load PopMIS -->
 	=20
-		<frame src=3D"cid:frame-8B8FEDE77769B250A9B7DD08EE3989F3@mhtml.blink" nam=
+		<frame src=3D"cid:frame-9882CB44A9B5023C317A9FCCBAAF6683@mhtml.blink" nam=
 e=3D"fraH1V1" border=3D"0" frameborder=3D"0" scrolling=3D"auto" marginwidth=
 =3D"0" marginheight=3D"0" topmargin=3D"0" leftmargin=3D"0" noresize=3D"">
 	=09
-		<frame src=3D"cid:frame-741DA4BD53DF88572C12E29B2B830763@mhtml.blink" nam=
+		<frame src=3D"cid:frame-58BD16B7F266B14846063E99383038D6@mhtml.blink" nam=
 e=3D"session" noresize=3D"" scrolling=3D"no" border=3D"0" frameborder=3D"0"=
  marginheight=3D"0" marginwidth=3D"0">
-		<frame src=3D"cid:frame-4E5A0B5D957EAA814D2F39139DD0B3F8@mhtml.blink" nam=
+		<frame src=3D"cid:frame-365945A77165C667C178544AE051D102@mhtml.blink" nam=
 e=3D"bottom" border=3D"0" frameborder=3D"0" scrolling=3D"no" marginwidth=3D=
 "0" marginheight=3D"0" noresize=3D"">
-		<frame src=3D"cid:frame-FD3DDDB118B2405DACC6B9FC760F2CCA@mhtml.blink" nam=
+		<frame src=3D"cid:frame-2D390CDEBAFDC2C6B391C126F00957D9@mhtml.blink" nam=
 e=3D"bottom" noresize=3D"" scrolling=3D"no" bgcolor=3D"#e1e1e1" marginheigh=
 t=3D"0" marginwidth=3D"0">
-		<frame src=3D"cid:frame-585C95DBC89255C4BD5D86AD3BCCB518@mhtml.blink" nam=
+		<frame src=3D"cid:frame-275BC9C677B465EEF82F9A0D5277B647@mhtml.blink" nam=
 e=3D"middle" noresize=3D"" scrolling=3D"no" border=3D"0" frameborder=3D"0" =
 marginheight=3D"0" marginwidth=3D"0">
 		<!--
@@ -69,7 +69,7 @@ lling=3Dno frameborder=3D2 marginwidth=3D'0' marginheight=3D'0' topmargin=
 
 
 </html>
-------MultipartBoundary--2QPvZ9iLxdyDymdyYLyMvY6hcKG2MvsazcLP9N7yzN----
+------MultipartBoundary--P4BZVvdizwF6P8c6J3e3Onj5W6AJAK9d0lxz6lJLI1----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
 Content-Location: chrome-extension://alhgpfoeiimagjlnfekdhkjlkiomcapa/js/css/a_chrome-extension_inject_global_module_scss.css
@@ -2686,7 +2686,7 @@ fault) !important; }
  }
 
 body.prevent-external-overrides .zp-modal { z-index: 20000 !important; }
-------MultipartBoundary--2QPvZ9iLxdyDymdyYLyMvY6hcKG2MvsazcLP9N7yzN----
+------MultipartBoundary--P4BZVvdizwF6P8c6J3e3Onj5W6AJAK9d0lxz6lJLI1----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
 Content-Location: chrome-extension://alhgpfoeiimagjlnfekdhkjlkiomcapa/js/css/inject.css
@@ -9423,25 +9423,25 @@ gative-light); }
 
 .x_Vf0NX .x_Ia2lv.x_39fVB .x_hqNkF { color: var(--color-ui-text-feedback-ca=
 ution-light); }
-------MultipartBoundary--2QPvZ9iLxdyDymdyYLyMvY6hcKG2MvsazcLP9N7yzN----
+------MultipartBoundary--P4BZVvdizwF6P8c6J3e3Onj5W6AJAK9d0lxz6lJLI1----
 Content-Type: text/html
-Content-ID: <frame-85B365B6B0CE72B4F0896884B5437D3F@mhtml.blink>
+Content-ID: <frame-29AD972F5EB831DC47D23ACE57C35AC4@mhtml.blink>
 Content-Transfer-Encoding: quoted-printable
 Content-Location: https://collection.adcb.com/Orbicollect/CLBand.jsp
 
 <html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
 =3DUTF-8"></head><body marginwidth=3D"0" marginheight=3D"0"></body></html>
-------MultipartBoundary--2QPvZ9iLxdyDymdyYLyMvY6hcKG2MvsazcLP9N7yzN----
+------MultipartBoundary--P4BZVvdizwF6P8c6J3e3Onj5W6AJAK9d0lxz6lJLI1----
 Content-Type: text/html
-Content-ID: <frame-103CE0775CD9D934B2D0A05E54CEA0DB@mhtml.blink>
+Content-ID: <frame-49B99BC3174440BA84D94F4B78E29305@mhtml.blink>
 Content-Transfer-Encoding: quoted-printable
 Content-Location: https://collection.adcb.com/Orbicollect/ControllerServlet?event=menuEvt&subevent=Menu&menuInvocation=true#
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"><html><!--<ME=
 TA HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3DUTF-8">--><h=
 ead><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8=
-"><link rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-de0d29a2-0099-=
-41e6-a6d3-25d0fd2d7f3b@mhtml.blink" /><title>Menu</title>
+"><link rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-28ff9078-8b5b-=
+4e57-8e41-d291c25ff823@mhtml.blink" /><title>Menu</title>
 <!--<META http-equiv=3DContent-Type content=3D"text/html; charset=3Dwindows=
 -1252">-->
 <link href=3D"https://collection.adcb.com/Orbicollect/css/CLstyle.css" type=
@@ -9520,7 +9520,7 @@ the loader ends  here		-->
 
 
 </body></html>
-------MultipartBoundary--2QPvZ9iLxdyDymdyYLyMvY6hcKG2MvsazcLP9N7yzN----
+------MultipartBoundary--P4BZVvdizwF6P8c6J3e3Onj5W6AJAK9d0lxz6lJLI1----
 Content-Type: image/gif
 Content-Transfer-Encoding: base64
 Content-Location: https://collection.adcb.com/Orbicollect/image/en_US//link/query_1.gif
@@ -9537,7 +9537,7 @@ TQY4c+rcybOnT5zGNljAkPLnTz9Gk+ZEqrSpzwZQo0qdSrWqVajGLlS4kPKq1z9ew/oJS5bsgbNo
 zLmz58+cFYgeTbq06dOoRU+gwLq169esU8ueTbu27dkFcuvezbu379/AgwsfTry48eMDkitfzry5
 8+fQo0ufTr269esEsmvfzr279+/gw4sfT768+fMC0qtfz769+/fw48ufT7++/fshAAA7
 
-------MultipartBoundary--2QPvZ9iLxdyDymdyYLyMvY6hcKG2MvsazcLP9N7yzN----
+------MultipartBoundary--P4BZVvdizwF6P8c6J3e3Onj5W6AJAK9d0lxz6lJLI1----
 Content-Type: image/gif
 Content-Transfer-Encoding: base64
 Content-Location: https://collection.adcb.com/Orbicollect/image/en_US//link/bg-but.gif
@@ -9547,17 +9547,17 @@ R0lGODlhBQAcAMQAAPf5+/////P19/Hz9efq7eXo693g5OLl6crQ1uzv8dfb39/j5vb4+drd4ert
 AAAALAAAAAAFABwAAAUzYCCKQGmeaKqubMu8LyTLQl0POP7se+L7jmCQQCQWjseDUrloNg1QaGM6
 VVitiGx2JAoBADs=
 
-------MultipartBoundary--2QPvZ9iLxdyDymdyYLyMvY6hcKG2MvsazcLP9N7yzN----
+------MultipartBoundary--P4BZVvdizwF6P8c6J3e3Onj5W6AJAK9d0lxz6lJLI1----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
 Content-Location: https://collection.adcb.com/Orbicollect/css/CLstyle.css
 
 @charset "utf-8";
 =0A
-------MultipartBoundary--2QPvZ9iLxdyDymdyYLyMvY6hcKG2MvsazcLP9N7yzN----
+------MultipartBoundary--P4BZVvdizwF6P8c6J3e3Onj5W6AJAK9d0lxz6lJLI1----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
-Content-Location: cid:css-de0d29a2-0099-41e6-a6d3-25d0fd2d7f3b@mhtml.blink
+Content-Location: cid:css-28ff9078-8b5b-4e57-8e41-d291c25ff823@mhtml.blink
 
 @charset "utf-8";
 
@@ -9608,9 +9608,9 @@ isibility: hidden; width: 62px; position: absolute; top: 3px; height: 2px; =
 #div10 { border-width: 1px; border-color: rgb(172, 172, 172); left: 711px; =
 visibility: hidden; width: 62px; position: absolute; top: 3px; height: 2px;=
  }
-------MultipartBoundary--2QPvZ9iLxdyDymdyYLyMvY6hcKG2MvsazcLP9N7yzN----
+------MultipartBoundary--P4BZVvdizwF6P8c6J3e3Onj5W6AJAK9d0lxz6lJLI1----
 Content-Type: text/html
-Content-ID: <frame-8B8FEDE77769B250A9B7DD08EE3989F3@mhtml.blink>
+Content-ID: <frame-9882CB44A9B5023C317A9FCCBAAF6683@mhtml.blink>
 Content-Transfer-Encoding: quoted-printable
 Content-Location: https://collection.adcb.com/Orbicollect/html/Queryfrm.htm
 
@@ -9636,25 +9636,25 @@ p-2003-->
 TXNMENU" name=3D"submenu" scrolling=3Dauto frameborder=3D"1">
 -->
 <frameset rows=3D"*,22%" frameborder=3D"0" border=3D"0" framespacing=3D"0">
-<frame marginwidth=3D"0" marginheight=3D"0" src=3D"cid:frame-EE9171441099D0=
-7E9CA8C6DABC53ADA5@mhtml.blink" name=3D"submenu" scrolling=3D"auto" framebo=
+<frame marginwidth=3D"0" marginheight=3D"0" src=3D"cid:frame-2C25C3E6AA8CCB=
+87F39FF92206D68372@mhtml.blink" name=3D"submenu" scrolling=3D"auto" framebo=
 rder=3D"0">
-<frame src=3D"cid:frame-386C60134235393FD3BDFF943D6F09C3@mhtml.blink" name=
+<frame src=3D"cid:frame-87BED44A639BC7514878C181D6E46102@mhtml.blink" name=
 =3D"txnband1" border=3D"0" marginwidth=3D"0" marginheight=3D"0" scrolling=
 =3D"no" width=3D"400" height=3D"184" frameborder=3D"0">
 </frameset>
 <!--Changed by devi chithra to avoid duplication in file name - GE - 03-Sep=
 -2003-->
 
-<frame src=3D"cid:frame-179D14F2486273A03A1353FDD7990348@mhtml.blink" name=
+<frame src=3D"cid:frame-7E02304DE21FB7F1563E9DB2A8A5E02A@mhtml.blink" name=
 =3D"txnband" border=3D"0" marginwidth=3D"0" marginheight=3D"0" scrolling=3D=
 "auto" frameborder=3D"0">
 </frameset>
 
 </html>
-------MultipartBoundary--2QPvZ9iLxdyDymdyYLyMvY6hcKG2MvsazcLP9N7yzN----
+------MultipartBoundary--P4BZVvdizwF6P8c6J3e3Onj5W6AJAK9d0lxz6lJLI1----
 Content-Type: text/html
-Content-ID: <frame-741DA4BD53DF88572C12E29B2B830763@mhtml.blink>
+Content-ID: <frame-58BD16B7F266B14846063E99383038D6@mhtml.blink>
 Content-Transfer-Encoding: quoted-printable
 Content-Location: https://collection.adcb.com/keepUpdate.htm
 
@@ -9668,15 +9668,15 @@ uiv=3D"Content-Type" content=3D"text/html; charset=3Dwindows-1252">
 <address>IBM_HTTP_Server Server at collection.adcb.com Port 443</address>
 
 </body></html>
-------MultipartBoundary--2QPvZ9iLxdyDymdyYLyMvY6hcKG2MvsazcLP9N7yzN----
+------MultipartBoundary--P4BZVvdizwF6P8c6J3e3Onj5W6AJAK9d0lxz6lJLI1----
 Content-Type: text/html
-Content-ID: <frame-4E5A0B5D957EAA814D2F39139DD0B3F8@mhtml.blink>
+Content-ID: <frame-365945A77165C667C178544AE051D102@mhtml.blink>
 Content-Transfer-Encoding: quoted-printable
 Content-Location: https://collection.adcb.com/Orbicollect/html/2.htm
 
 <html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
-=3DUTF-8"><link rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-3f913e=
-ab-b83e-45ad-b61c-32f2c4d6b09b@mhtml.blink" />
+=3DUTF-8"><link rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-003746=
+e6-7339-4380-a19f-951de5e44d58@mhtml.blink" />
 <link rel=3D"StyleSheet" href=3D"https://collection.adcb.com/Orbicollect/st=
 ylesheet/CLstyle.css" type=3D"text/css">
 <!-- Added by Varatha on Tuesday, May 05, 2009 for disabling right click in=
@@ -9699,7 +9699,7 @@ ylesheet/CLstyle.css" type=3D"text/css">
 </form>
 
 </body></html>
-------MultipartBoundary--2QPvZ9iLxdyDymdyYLyMvY6hcKG2MvsazcLP9N7yzN----
+------MultipartBoundary--P4BZVvdizwF6P8c6J3e3Onj5W6AJAK9d0lxz6lJLI1----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
 Content-Location: https://collection.adcb.com/Orbicollect/stylesheet/CLstyle.css
@@ -9830,17 +9830,17 @@ tica, sans-serif; font-size: 8pt; font-weight: normal; color: rgb(255, 0, 0=
 .manfldvisible { position: relative; visibility: visible; font-family: Aria=
 l, Helvetica, sans-serif; font-size: 8pt; font-weight: normal; color: rgb(2=
 55, 0, 0); text-decoration: none; font-style: italic; }
-------MultipartBoundary--2QPvZ9iLxdyDymdyYLyMvY6hcKG2MvsazcLP9N7yzN----
+------MultipartBoundary--P4BZVvdizwF6P8c6J3e3Onj5W6AJAK9d0lxz6lJLI1----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
-Content-Location: cid:css-3f913eab-b83e-45ad-b61c-32f2c4d6b09b@mhtml.blink
+Content-Location: cid:css-003746e6-7339-4380-a19f-951de5e44d58@mhtml.blink
 
 @charset "utf-8";
 
 body { font-family: arial; font-size: 36px; }
-------MultipartBoundary--2QPvZ9iLxdyDymdyYLyMvY6hcKG2MvsazcLP9N7yzN----
+------MultipartBoundary--P4BZVvdizwF6P8c6J3e3Onj5W6AJAK9d0lxz6lJLI1----
 Content-Type: text/html
-Content-ID: <frame-FD3DDDB118B2405DACC6B9FC760F2CCA@mhtml.blink>
+Content-ID: <frame-2D390CDEBAFDC2C6B391C126F00957D9@mhtml.blink>
 Content-Transfer-Encoding: quoted-printable
 Content-Location: https://collection.adcb.com/CLerror.htm
 
@@ -9854,15 +9854,15 @@ uiv=3D"Content-Type" content=3D"text/html; charset=3Dwindows-1252">
 <address>IBM_HTTP_Server Server at collection.adcb.com Port 443</address>
 
 </body></html>
-------MultipartBoundary--2QPvZ9iLxdyDymdyYLyMvY6hcKG2MvsazcLP9N7yzN----
+------MultipartBoundary--P4BZVvdizwF6P8c6J3e3Onj5W6AJAK9d0lxz6lJLI1----
 Content-Type: text/html
-Content-ID: <frame-585C95DBC89255C4BD5D86AD3BCCB518@mhtml.blink>
+Content-ID: <frame-275BC9C677B465EEF82F9A0D5277B647@mhtml.blink>
 Content-Transfer-Encoding: quoted-printable
 Content-Location: https://collection.adcb.com/Orbicollect/ControllerServlet?event=menuEvt&subevent=CLheader&menuInvocation=true
 
 <html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
-=3DUTF-8"><link rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-279651=
-5c-b962-4e0a-812b-6640b3fce158@mhtml.blink" />
+=3DUTF-8"><link rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-f2afb2=
+f8-515f-47c0-b086-2d7390a4f3a8@mhtml.blink" />
 	    <link rel=3D"STYLESHEET" href=3D"https://collection.adcb.com/Orbicolle=
 ct/stylesheet/CLstyle.css" type=3D"text/css">
 	=09
@@ -9955,7 +9955,7 @@ s=3D"bottxt">=20
             &nbsp;</td>
           <td height=3D"26" align=3D"center" valign=3D"middle" width=3D"18%=
 " class=3D"bottxt">=20
-            Karthiha Ieninraja</td>
+            Farhaan</td>
           <td height=3D"26" align=3D"center" valign=3D"middle" width=3D"21%=
 " class=3D"bottxt">=20
             02-MAY-2025</td>
@@ -10014,7 +10014,7 @@ n the calendar comp-->
 
 
 </body></html>
-------MultipartBoundary--2QPvZ9iLxdyDymdyYLyMvY6hcKG2MvsazcLP9N7yzN----
+------MultipartBoundary--P4BZVvdizwF6P8c6J3e3Onj5W6AJAK9d0lxz6lJLI1----
 Content-Type: image/gif
 Content-Transfer-Encoding: base64
 Content-Location: https://collection.adcb.com/Orbicollect/image/en_US//New/bot_link2.gif
@@ -10056,7 +10056,7 @@ iD4x5vBzv6PLtpQjIcBkkTXhU1+HRshDKM5QhMq7nXMkFEhDAUiB18PhCM3zGNzpJoHbShBnFqhD
 JykQNroDUM1geEjyZUaBcyShCI+3R0JqpnjH2WNc5hhJD27rk6M0zw0Nta9QgrKOz+Nja8yjSV7x
 kJPngmUVF4hKVwoTJYb8S/FuF0heAmqPvtSkoQDZQSraLiAAOw==
 
-------MultipartBoundary--2QPvZ9iLxdyDymdyYLyMvY6hcKG2MvsazcLP9N7yzN----
+------MultipartBoundary--P4BZVvdizwF6P8c6J3e3Onj5W6AJAK9d0lxz6lJLI1----
 Content-Type: image/gif
 Content-Transfer-Encoding: base64
 Content-Location: https://collection.adcb.com/Orbicollect/image/en_US//New/logout.gif
@@ -10077,7 +10077,7 @@ GbIjr18PQPwKFhw37uDDiPNG6LCgcWMcTmKoaMxjhZAeNBxr3sy5s+fPEUQkGE0aRYkqVJi0kLJE
 B+nXsGPLnk07QQQQA3Lr3s27t+/fwIPrjjDDgPHjyJMrX868ufPjEVIcmE69uvXr2LNr3049QgUC
 4MOLH0++vPnz6MN7DwQAOw==
 
-------MultipartBoundary--2QPvZ9iLxdyDymdyYLyMvY6hcKG2MvsazcLP9N7yzN----
+------MultipartBoundary--P4BZVvdizwF6P8c6J3e3Onj5W6AJAK9d0lxz6lJLI1----
 Content-Type: image/gif
 Content-Transfer-Encoding: base64
 Content-Location: https://collection.adcb.com/Orbicollect/image/en_US//New/home.gif
@@ -10098,7 +10098,7 @@ uCFErt8IEeICFgw4cIPBhw0jLozYLwQtCiIr8EJEA4gLIGpoeNJGsufPoEOLHh0ZQpkFqBf8CHPh
 wgkwUU4EUZK6tu3buHPrRg0hRoHfwIMLH068uPHjwCEcOcC8ufPn0KNLn069OYQlA7Jr3869u/fv
 4MNrhyCFgPnz6NOrX8++vfvzEGAYmE+/vv37+PPr308fwgcEAAYo4IAEFmjggQgG6F8gADs=
 
-------MultipartBoundary--2QPvZ9iLxdyDymdyYLyMvY6hcKG2MvsazcLP9N7yzN----
+------MultipartBoundary--P4BZVvdizwF6P8c6J3e3Onj5W6AJAK9d0lxz6lJLI1----
 Content-Type: image/gif
 Content-Transfer-Encoding: base64
 Content-Location: https://collection.adcb.com/Orbicollect/image/en_US//bott_bndbg.gif
@@ -10107,17 +10107,17 @@ R0lGODlhBgAYALMAANPd4+Pp7dfg5dri597l6tXe5N3k6dTd5H+FiODm69nh5uXr7tzi6OLo7dbf
 5QAAACH5BAAAAAAALAAAAAAGABgAAAQpEMm5qgU46827/+B2jGRhnk6qCmyrvPAgz0xtG3hO7Hzi
 /42gMEAsRgAAOw==
 
-------MultipartBoundary--2QPvZ9iLxdyDymdyYLyMvY6hcKG2MvsazcLP9N7yzN----
+------MultipartBoundary--P4BZVvdizwF6P8c6J3e3Onj5W6AJAK9d0lxz6lJLI1----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
-Content-Location: cid:css-2796515c-b962-4e0a-812b-6640b3fce158@mhtml.blink
+Content-Location: cid:css-f2afb2f8-515f-47c0-b086-2d7390a4f3a8@mhtml.blink
 
 @charset "utf-8";
 
 .scrollcell { overflow: auto; height: 50px; }
-------MultipartBoundary--2QPvZ9iLxdyDymdyYLyMvY6hcKG2MvsazcLP9N7yzN----
+------MultipartBoundary--P4BZVvdizwF6P8c6J3e3Onj5W6AJAK9d0lxz6lJLI1----
 Content-Type: text/html
-Content-ID: <frame-EE9171441099D07E9CA8C6DABC53ADA5@mhtml.blink>
+Content-ID: <frame-2C25C3E6AA8CCB87F39FF92206D68372@mhtml.blink>
 Content-Transfer-Encoding: quoted-printable
 Content-Location: https://collection.adcb.com/Orbicollect/html/CLMenu_open.htm?FrameId=TXNMENU
 
@@ -10149,44 +10149,90 @@ h=3D"8">&nbsp;<font color=3D"red"><b style=3D"font-family: Calibri ; font-s=
 ize: 14.5px;font-weight: Bold">Case Query</b> </font></a></td></tr><tr vali=
 gn=3D"middle"><td align=3D"left" height=3D"23" nowrap=3D""><a name=3D"sub2"=
  style=3D"text-decoration:none" target=3D"fraH1V1"><img src=3D"https://coll=
-ection.adcb.com/Orbicollect/image/RedPlus.gif" align=3D"left" border=3D"0" =
+ection.adcb.com/Orbicollect/image/RedMinus.gif" align=3D"left" border=3D"0"=
+ vspace=3D"0" hspace=3D"0" height=3D"8" width=3D"8"><img src=3D"https://col=
+lection.adcb.com/Orbicollect/image/menu_pixel.gif" align=3D"left" border=3D=
+"0" vspace=3D"0" hspace=3D"0" height=3D"8" width=3D"8">&nbsp;<b style=3D"fo=
+nt-family: Calibri ; font-size: 14.5px;font-weight: Bold">Pop-Up</b></a></t=
+d></tr><tr valign=3D"middle"><td align=3D"left" height=3D"23" nowrap=3D""><=
+img src=3D"https://collection.adcb.com/Orbicollect/image/menu_pixel.gif" al=
+ign=3D"left" border=3D"0" vspace=3D"0" hspace=3D"0" height=3D"8" width=3D"8=
+"><img src=3D"https://collection.adcb.com/Orbicollect/image/menu_pixel.gif"=
+ align=3D"left" border=3D"0" vspace=3D"0" hspace=3D"0" height=3D"8" width=
+=3D"8"><a href=3D"https://collection.adcb.com/Orbicollect/ControllerServlet=
+?event=3DCaseQueryEvt&amp;subevent=3DPopupBeginEvt&amp;hScreenOption=3Dpopu=
+p&amp;menuInvocation=3Dtrue&amp;pgmName=3Dm_Begin" name=3D"sub3" style=3D"t=
+ext-decoration:none" target=3D"txnband"><img src=3D"https://collection.adcb=
+.com/Orbicollect/image/RedArrow.gif" align=3D"left" border=3D"0" vspace=3D"=
+0" hspace=3D"0" height=3D"8" width=3D"8">&nbsp;<span style=3D"font-family: =
+Calibri ; font-size: 14.5px;">Begin</span></a></td></tr><tr valign=3D"middl=
+e"><td align=3D"left" height=3D"23" nowrap=3D""><img src=3D"https://collect=
+ion.adcb.com/Orbicollect/image/menu_pixel.gif" align=3D"left" border=3D"0" =
 vspace=3D"0" hspace=3D"0" height=3D"8" width=3D"8"><img src=3D"https://coll=
 ection.adcb.com/Orbicollect/image/menu_pixel.gif" align=3D"left" border=3D"=
-0" vspace=3D"0" hspace=3D"0" height=3D"8" width=3D"8">&nbsp;<b style=3D"fon=
-t-family: Calibri ; font-size: 14.5px;font-weight: Bold">Pop-Up</b></a></td=
-></tr></tbody></table></body></html>
-------MultipartBoundary--2QPvZ9iLxdyDymdyYLyMvY6hcKG2MvsazcLP9N7yzN----
+0" vspace=3D"0" hspace=3D"0" height=3D"8" width=3D"8"><a href=3D"https://co=
+llection.adcb.com/Orbicollect/ControllerServlet?event=3DWorkListEvt&amp;sub=
+event=3DCollectorWorkListSubEvt&amp;menuInvocation=3Dtrue&amp;pgmName=3Dm_M=
+aintWorkList" name=3D"sub4" style=3D"text-decoration:none" target=3D"txnban=
+d"><img src=3D"https://collection.adcb.com/Orbicollect/image/RedArrow.gif" =
+align=3D"left" border=3D"0" vspace=3D"0" hspace=3D"0" height=3D"8" width=3D=
+"8">&nbsp;<span style=3D"font-family: Calibri ; font-size: 14.5px;">Maintai=
+n WorkList Priority</span></a></td></tr><tr valign=3D"middle"><td align=3D"=
+left" height=3D"23" nowrap=3D""><img src=3D"https://collection.adcb.com/Orb=
+icollect/image/menu_pixel.gif" align=3D"left" border=3D"0" vspace=3D"0" hsp=
+ace=3D"0" height=3D"8" width=3D"8"><img src=3D"https://collection.adcb.com/=
+Orbicollect/image/menu_pixel.gif" align=3D"left" border=3D"0" vspace=3D"0" =
+hspace=3D"0" height=3D"8" width=3D"8"><a href=3D"https://collection.adcb.co=
+m/Orbicollect/ControllerServlet?event=3DCaseQueryEvt&amp;subevent=3DCollect=
+orMisEvt&amp;menuInvocation=3Dtrue&amp;pgmName=3Dm_PopMis" name=3D"sub5" st=
+yle=3D"text-decoration:none" target=3D"txnband"><img src=3D"https://collect=
+ion.adcb.com/Orbicollect/image/RedArrow.gif" align=3D"left" border=3D"0" vs=
+pace=3D"0" hspace=3D"0" height=3D"8" width=3D"8">&nbsp;<span style=3D"font-=
+family: Calibri ; font-size: 14.5px;">POP MIS</span></a></td></tr><tr valig=
+n=3D"middle"><td align=3D"left" height=3D"23" nowrap=3D""><img src=3D"https=
+://collection.adcb.com/Orbicollect/image/menu_pixel.gif" align=3D"left" bor=
+der=3D"0" vspace=3D"0" hspace=3D"0" height=3D"8" width=3D"8"><img src=3D"ht=
+tps://collection.adcb.com/Orbicollect/image/menu_pixel.gif" align=3D"left" =
+border=3D"0" vspace=3D"0" hspace=3D"0" height=3D"8" width=3D"8"><a href=3D"=
+https://collection.adcb.com/Orbicollect/ControllerServlet?event=3DCaseQuery=
+Evt&amp;subevent=3Dhomepopupviewer&amp;menuInvocation=3Dtrue&amp;pgmName=3D=
+m_PopUpsViewer" name=3D"sub6" style=3D"text-decoration:none" target=3D"txnb=
+and"><img src=3D"https://collection.adcb.com/Orbicollect/image/RedArrow.gif=
+" align=3D"left" border=3D"0" vspace=3D"0" hspace=3D"0" height=3D"8" width=
+=3D"8">&nbsp;<span style=3D"font-family: Calibri ; font-size: 14.5px;">Pop-=
+Ups Viewer</span></a></td></tr></tbody></table></body></html>
+------MultipartBoundary--P4BZVvdizwF6P8c6J3e3Onj5W6AJAK9d0lxz6lJLI1----
 Content-Type: image/gif
 Content-Transfer-Encoding: base64
-Content-Location: https://collection.adcb.com/Orbicollect/image/RedPlus.gif
+Content-Location: https://collection.adcb.com/Orbicollect/image/RedMinus.gif
 
-R0lGODlhCQAJAJECAMPCwsQAAO3y8wAAACH5BAEAAAIALAAAAAAJAAkAAAIVhI+ioWLN1FvNhIvD
-FNEBWH2UhJQFADs=
+R0lGODlhCQAJAJECAMPCwsQAAO3y8wAAACH5BAEAAAIALAAAAAAJAAkAAAIRhI+iK8brXgOh2hBf
+ZhuiXwAAOw==
 
-------MultipartBoundary--2QPvZ9iLxdyDymdyYLyMvY6hcKG2MvsazcLP9N7yzN----
+------MultipartBoundary--P4BZVvdizwF6P8c6J3e3Onj5W6AJAK9d0lxz6lJLI1----
 Content-Type: image/gif
 Content-Transfer-Encoding: base64
 Content-Location: https://collection.adcb.com/Orbicollect/image/RedArrow.gif
 
 R0lGODlhCAAJAIABAMQAAAAAACH5BAEAAAEALAAAAAAIAAkAAAIPTGBpgHrsGEyyrUktddwUADs=
 
-------MultipartBoundary--2QPvZ9iLxdyDymdyYLyMvY6hcKG2MvsazcLP9N7yzN----
+------MultipartBoundary--P4BZVvdizwF6P8c6J3e3Onj5W6AJAK9d0lxz6lJLI1----
 Content-Type: image/gif
 Content-Transfer-Encoding: base64
 Content-Location: https://collection.adcb.com/Orbicollect/image/redqsqr.gif
 
 R0lGODlhBAAEAIAAAPAsLQAAACH5BAAAAAAALAAAAAAEAAQAAAIEhI8JBQA7
 
-------MultipartBoundary--2QPvZ9iLxdyDymdyYLyMvY6hcKG2MvsazcLP9N7yzN----
+------MultipartBoundary--P4BZVvdizwF6P8c6J3e3Onj5W6AJAK9d0lxz6lJLI1----
 Content-Type: image/gif
 Content-Transfer-Encoding: base64
 Content-Location: https://collection.adcb.com/Orbicollect/image/menu_pixel.gif
 
 R0lGODlhAQABAIAAAP///////yH5BAUUAAEALAAAAAABAAEAAAICTAEAOw==
 
-------MultipartBoundary--2QPvZ9iLxdyDymdyYLyMvY6hcKG2MvsazcLP9N7yzN----
+------MultipartBoundary--P4BZVvdizwF6P8c6J3e3Onj5W6AJAK9d0lxz6lJLI1----
 Content-Type: text/html
-Content-ID: <frame-386C60134235393FD3BDFF943D6F09C3@mhtml.blink>
+Content-ID: <frame-87BED44A639BC7514878C181D6E46102@mhtml.blink>
 Content-Transfer-Encoding: quoted-printable
 Content-Location: https://collection.adcb.com/Orbicollect/html/ImageLogo.html
 
@@ -10220,7 +10266,7 @@ e" align=3D"center">
 
 
 </body></html>
-------MultipartBoundary--2QPvZ9iLxdyDymdyYLyMvY6hcKG2MvsazcLP9N7yzN----
+------MultipartBoundary--P4BZVvdizwF6P8c6J3e3Onj5W6AJAK9d0lxz6lJLI1----
 Content-Type: image/jpeg
 Content-Transfer-Encoding: base64
 Content-Location: https://collection.adcb.com/Orbicollect/image/ADCB_Logo.jpg
@@ -10280,9 +10326,9 @@ Y9QHJI/75JrrILaKJQLaGOJB8scaDAQf7KipKKAS7IK5fWfhb4bvm3X+jw+YeXliypkP+3trqKKB
 +Fnhu1bdBpMbt96MzEsIj/sK3pXU0Uml1S8jWFSS+Ccl3XcRVAHyqAOiqOwHoPaloopmYUUUUAFF
 FFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAD/2Q==
 
-------MultipartBoundary--2QPvZ9iLxdyDymdyYLyMvY6hcKG2MvsazcLP9N7yzN----
+------MultipartBoundary--P4BZVvdizwF6P8c6J3e3Onj5W6AJAK9d0lxz6lJLI1----
 Content-Type: text/html
-Content-ID: <frame-179D14F2486273A03A1353FDD7990348@mhtml.blink>
+Content-ID: <frame-7E02304DE21FB7F1563E9DB2A8A5E02A@mhtml.blink>
 Content-Transfer-Encoding: quoted-printable
 Content-Location: https://collection.adcb.com/Orbicollect/ControllerServlet
 
@@ -10389,8 +10435,8 @@ pacing=3D"1">
 				<td iwidth=3D"12%" align=3D"left" class=3D"ez1" nowrap=3D"">CID No.</td=
 >
 
-				<td iwidth=3D"30%" align=3D"left" class=3D"data" nowrap=3D"">10192246&n=
-bsp;</td>
+				<td iwidth=3D"30%" align=3D"left" class=3D"data" nowrap=3D"">627963&nbs=
+p;</td>
 
 		=09
 
@@ -10459,8 +10505,8 @@ nbsp;</td>
 		<!--modified by Anchal on 07_FEB_2017 for ADCB_UAT_42 space while concata=
 nation -->
 
-		<td iwidth=3D"15%" align=3D"left" nowrap=3D"" class=3D"data">&nbsp;&nbsp;=
-</td>
+		<td iwidth=3D"15%" align=3D"left" nowrap=3D"" class=3D"data">971506287119=
+&nbsp;</td>
 
 	=09
 
@@ -10478,8 +10524,8 @@ nation -->
 
 				<td iwidth=3D"12%" align=3D"left" nowrap=3D"" class=3D"ez1">Name</td>
 
-				<td iwidth=3D"30%" align=3D"left" nowrap=3D"" class=3D"data">NEW LINE P=
-HONE LLC&nbsp;</td>
+				<td iwidth=3D"30%" align=3D"left" nowrap=3D"" class=3D"data">CROSS EAST=
+ SHIPPING &amp; CARGO CO LLC&nbsp;</td>
 
 		=09
 
@@ -10546,7 +10592,7 @@ fice 2 Number&nbsp;</td>
 		<!--modified by Anchal on 07_FEB_2017 for ADCB_UAT_42 space while concata=
 nation -->
 
-		<td iwidth=3D"15%" align=3D"left" nowrap=3D"" class=3D"data">97142556165 =
+		<td iwidth=3D"15%" align=3D"left" nowrap=3D"" class=3D"data">97142981900 =
 / &nbsp;</td>
 
 	=09
@@ -10634,8 +10680,8 @@ anation -->
 		<!--modified by Anchal on 07_FEB_2017 for ADCB_UAT_42 space while concata=
 nation -->
 
-		<td iwidth=3D"15%" align=3D"left" nowrap=3D"" class=3D"data">009714255616=
-5 / &nbsp;</td>
+		<td iwidth=3D"15%" align=3D"left" nowrap=3D"" class=3D"data">971506287119=
+ / &nbsp;</td>
 
 	=09
 
@@ -10657,8 +10703,8 @@ nation -->
 
 				<td iwidth=3D"12%" align=3D"left" nowrap=3D"" class=3D"ez1">&nbsp;</td>
 
-				<td iwidth=3D"30%" align=3D"left" nowrap=3D"" class=3D"data">PO BOX 146=
-12&nbsp;</td>
+				<td iwidth=3D"30%" align=3D"left" nowrap=3D"" class=3D"data">PO BOX 630=
+50&nbsp;</td>
 
 		=09
 
@@ -10748,8 +10794,8 @@ nation -->
 
 				<td iwidth=3D"12%" align=3D"left" class=3D"ez1">&nbsp;</td>
 
-				<td iwidth=3D"30%" align=3D"left" nowrap=3D"" class=3D"data">&nbsp;&nbs=
-p;</td>
+				<td iwidth=3D"30%" align=3D"left" nowrap=3D"" class=3D"data">M.M TOWER =
+NO 803&nbsp;</td>
 
 		=09
 
@@ -10869,7 +10915,7 @@ td>
 		<!--modified by Anchal on 07_FEB_2017 for ADCB_UAT_42 space while concata=
 nation -->
 
-		<td iwidth=3D"20%" align=3D"left" nowrap=3D"" class=3D"data">DUBAI&nbsp;<=
+		<td iwidth=3D"20%" align=3D"left" nowrap=3D"" class=3D"data">DEIRA&nbsp;<=
 /td>
 
 	=09
@@ -10895,8 +10941,8 @@ anation -->
 		<!--modified by Anchal on 07_FEB_2017 for ADCB_UAT_42 space while concata=
 nation -->
 
-		<td iwidth=3D"15%" align=3D"left" nowrap=3D"" class=3D"data">REZAMAHMOUDI=
-1366@GMAIL.COM&nbsp;</td>
+		<td iwidth=3D"15%" align=3D"left" nowrap=3D"" class=3D"data">INFO@CROSSEA=
+ST-SHIPPING.COM&nbsp;</td>
 
 	=09
 
@@ -11037,7 +11083,7 @@ nation -->
 
 				<!-- End of addition by v.sadha --->
 
-				<td iwidth=3D"30%" align=3D"right" class=3D"data" nowrap=3D"">14,574.82=
+				<td iwidth=3D"30%" align=3D"right" class=3D"data" nowrap=3D"">95,742.28=
 &nbsp;</td>
 
 				<!--end-->
@@ -11286,11 +11332,11 @@ nsize' name=3Dbtnchange value=3D'Suppress Comm.' onClick =3D"openSupp();"><=
 
 	<!--End-->
 
-			<!--<a href=3D"javascript:ftnConnect('10192246020001','OVERDRAFT')">1019=
-2246020001</a> -->
+			<!--<a href=3D"javascript:ftnConnect('5476589411193614','CREDITCD')">547=
+6589411193614</a> -->
 
-			<!--<a href=3D"javascript:ftnConnect('10192246020001','OVERDRAFT','false=
-','null')" tabindex =3D '5'>10192246020001</a> -->
+			<!--<a href=3D"javascript:ftnConnect('5476589411193614','CREDITCD','fals=
+e','null')" tabindex =3D '5'>5476589411193614</a> -->
 
 
 
@@ -11299,8 +11345,8 @@ nsize' name=3Dbtnchange value=3D'Suppress Comm.' onClick =3D"openSupp();"><=
 			<!--// by vinoth for BOA CR-3 . ftnConnect method changed to add calcula=
 tedMinPPAmtStr argument. -->
 
-		<!--	<a href=3D"javascript:ftnConnect('10192246020001','OVERDRAFT','false=
-','null','1457.48')" tabindex =3D '6'>
+		<!--	<a href=3D"javascript:ftnConnect('5476589411193614','CREDITCD','fals=
+e','null','0.0')" tabindex =3D '6'>
 
 -->
 
@@ -11317,9 +11363,8 @@ tabindex=3D"7">
 
 				=09
                        =20
-
-			 10192246020001
-                                 =20
+			            547658XXXXXX3614
+                       =20
 			=20
 
 
@@ -11339,7 +11384,7 @@ tabindex=3D"7">
 
 =09
 
-		<td class=3D"data" align=3D"left">OVERDRAFT
+		<td class=3D"data" align=3D"left">CREDITCD
 
 	=09
 
@@ -11355,7 +11400,7 @@ tabindex=3D"7">
 
 =09
 
-		</td><td class=3D"data" align=3D"left">LCAZ23
+		</td><td class=3D"data" align=3D"left">LCAZ90
 
 	=09
 
@@ -11387,8 +11432,8 @@ tabindex=3D"7">
 
 =09
 
-		<font color=3D"red"></font></td><td class=3D"data" align=3D"right">14,574=
-.82</td>
+		<font color=3D"red"></font></td><td class=3D"data" align=3D"right">95,742=
+.28</td>
 
 	=09
 
@@ -11404,7 +11449,7 @@ tabindex=3D"7">
 
 =09
 
-		<td class=3D"data" align=3D"right">14,574.82</td>
+		<td class=3D"data" align=3D"right">95,742.28</td>
 
 	=09
 
@@ -11452,7 +11497,7 @@ tabindex=3D"7">
 
 =09
 
-		</td><td class=3D"data" align=3D"left">OVERDRAFT
+		</td><td class=3D"data" align=3D"left">CREDIT CARD
 
 	=09
 
@@ -11474,7 +11519,7 @@ tabindex=3D"7">
 
 =09
 
-	<td class=3D"data" align=3D"left">&nbsp; 1457.48=20
+	<td class=3D"data" align=3D"left">&nbsp; 0.0=20
 
 	</td>
 
@@ -13293,7 +13338,7 @@ for Bank of Sohar -->
 
 
 </body></html>
-------MultipartBoundary--2QPvZ9iLxdyDymdyYLyMvY6hcKG2MvsazcLP9N7yzN----
+------MultipartBoundary--P4BZVvdizwF6P8c6J3e3Onj5W6AJAK9d0lxz6lJLI1----
 Content-Type: image/gif
 Content-Transfer-Encoding: base64
 Content-Location: https://collection.adcb.com/Orbicollect/image/date.gif
@@ -13302,7 +13347,7 @@ R0lGODlhEAAQAPIAAAAAAEBAQICAgP30BQAA+wKr6sDAwP///yH5BAEAAAcAIf4uICBJbXBvcnRl
 ZCBmcm9tIFhQTSBpbWFnZTogaWNvbl8xMDA3XzE2eDE2LnhwbQAsAAAAABAAEAAAAz54utwuRLhJ
 DBlTQXjIKVnlMaBzjZ1SMpjiEePqLvB8AExNL0CQ64we7oe6BXwmXQ9JgRmOGVqFGe1IqthDAgA7
 
-------MultipartBoundary--2QPvZ9iLxdyDymdyYLyMvY6hcKG2MvsazcLP9N7yzN----
+------MultipartBoundary--P4BZVvdizwF6P8c6J3e3Onj5W6AJAK9d0lxz6lJLI1----
 Content-Type: image/gif
 Content-Transfer-Encoding: base64
 Content-Location: https://collection.adcb.com/Orbicollect/image/arr_bullet.gif
@@ -13312,4 +13357,4 @@ u4yTyc7S6MvP5+rs9WRvt4iQyOPl8v///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEA
 ABYALAAAAAASAA0AAAVSoCWOZGmKwZAMwUkihFAohUAgrkUcwAL8B4IrIPg1ID+AoGUaFH4Gw0MC
 KAxOCQU0OqkoEifnlsKoXk3EnyOSXLp2vWQwB5PRbLicJbVi6v8jIQA7
 
-------MultipartBoundary--2QPvZ9iLxdyDymdyYLyMvY6hcKG2MvsazcLP9N7yzN------
+------MultipartBoundary--P4BZVvdizwF6P8c6J3e3Onj5W6AJAK9d0lxz6lJLI1------
