@@ -176,7 +176,7 @@ class AdcbUaeSpider(scrapy.Spider):
                 gender, date_of_birth = gender_date_of_birth[0].strip(), gender_date_of_birth[-1].strip()
                 # office_number = data_items.get('Office1  /  Office 2 Number', '').replace('/', '').strip()
                 data['name'] = clean(data_items.get('Name', '')).replace('&nbsp;', '')
-                data['gender'] = clean(gender).replace('&nbsp;', '')
+                data['gender'] = clean(gender).replace('&nbsp;', '') if gender else ''
                 data['date_of_birth'] = clean(date_of_birth).replace('&nbsp;', '')
         data['total_os'] = clean(total_os_elements).replace('&nbsp;', '') if total_os_elements else None
         data['employer_name'] = clean(employer_name).replace('&nbsp;', '') if employer_name else None
