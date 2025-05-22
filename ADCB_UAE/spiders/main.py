@@ -3,6 +3,7 @@ from ADCB_UAE.items import Product
 from lxml import html
 import os
 from datetime import date
+import pandas as pd
 
 
 
@@ -15,12 +16,19 @@ class AdcbUaeSpider(scrapy.Spider):
     name = "ADCB_UAE"
 
     def start_requests(self):
+        # items_list = []
         folder_path = os.path.dirname(os.path.abspath(__file__))
         c = 0
         for file_name in os.listdir(folder_path):
+        #     if '-' not in file_name:
+        #         items_list.append(file_name.split('.')[0])
+        # df = pd.DataFrame(items_list)
+
+        # df.to_csv('cid.csv', index=False)
+        # # print(items_list)
             if file_name.endswith(".mhtml") and '-' not in file_name:
                 c += 1
-                # print(file_name)
+                print(file_name)
                 file_path = f"file://{os.path.abspath(os.path.join(folder_path, file_name))}"
                 yield scrapy.Request(
                     url=file_path,
