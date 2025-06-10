@@ -187,16 +187,16 @@ class AdcbUaeSpider(scrapy.Spider):
                 data['gender'] = clean(gender).replace('&nbsp;', '') if gender else ''
                 data['date_of_birth'] = clean(date_of_birth).replace('&nbsp;', '') if date_of_birth else ''
         data['total_os'] = clean(total_os_elements).replace('&nbsp;', '') if len(total_os_elements) < 80 else None
-        data['employer_name'] = clean(employer_name).replace('&nbsp;', '') if len(total_os_elements) < 80 else None
-        data['Mobile_Number'] = clean(Mobile_Number).replace('&nbsp;', '') if len(total_os_elements) < 80 else None
-        data['Office_Numbers'] = clean(Office_Numbers).replace('&nbsp;', '') if len(total_os_elements) < 80 else None
-        data['Reference_name_mobile'] = clean(Ref_name_mobile).replace('&nbsp;', '') if len(total_os_elements) < 300 else None
-        data['Email_ID'] = clean(Email_ID).replace('&nbsp;', '') if len(total_os_elements) < 80 else None
-        data['Home_Country_Number'] = clean(Home_Country_Number).replace('&nbsp;', '') if len(total_os_elements) < 80 else None
-        data['Designation_Occupation'] = clean(Designation_Occupation).replace('&nbsp;', '') if len(total_os_elements) < 400 else None
-        data['Emirates_id'] = clean(Emirates_id).replace('&nbsp;', '') if len(total_os_elements) < 80 else None
-        data['address'] = clean(address).replace('&nbsp;', '').replace('<font color"black">.</font>,', "") if address else None
-        data['Residence_number'] = clean(Residence_number).replace('&nbsp;', '') if len(total_os_elements) < 80 else None
+        data['employer_name'] = clean(employer_name).replace('&nbsp;', '') if len(employer_name) < 80 else None
+        data['Mobile_Number'] = clean(Mobile_Number).replace('&nbsp;', '') if len(Mobile_Number) < 80 else None
+        data['Office_Numbers'] = clean(Office_Numbers).replace('&nbsp;', '') if len(Office_Numbers) < 80 else None
+        data['Reference_name_mobile'] = clean(Ref_name_mobile).replace('&nbsp;', '') if Ref_name_mobile and len(Ref_name_mobile) < 300 else None
+        data['Email_ID'] = clean(Email_ID).replace('&nbsp;', '') if len(Email_ID) < 80 else None
+        data['Home_Country_Number'] = clean(Home_Country_Number).replace('&nbsp;', '') if Home_Country_Number and len(Home_Country_Number) < 80 else None
+        data['Designation_Occupation'] = clean(Designation_Occupation).replace('&nbsp;', '') if Designation_Occupation and len(total_os_elements) < 400 else None
+        data['Emirates_id'] = clean(Emirates_id).replace('&nbsp;', '') if Emirates_id and len(Emirates_id) < 80 else None
+        data['address'] = clean(address).replace('&nbsp;', '').replace('<font color"black">.</font>,', "") if address and address else None
+        data['Residence_number'] = clean(Residence_number).replace('&nbsp;', '') if Residence_number and len(Residence_number) < 80 else None
         data['scrape_date'] = str(scrape_date).replace('&nbsp;', '') if scrape_date else ''
-        data['Region'] = str(Region).replace('&nbsp;', '') if len(total_os_elements) < 80 else ''
+        data['Region'] = str(Region).replace('&nbsp;', '') if Region and len(Region) < 80 else ''
         yield Product(**data)
