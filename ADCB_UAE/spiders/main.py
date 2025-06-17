@@ -187,7 +187,7 @@ class AdcbUaeSpider(scrapy.Spider):
                 data['gender'] = clean(gender).replace('&nbsp;', '') if gender else ''
                 data['date_of_birth'] = clean(date_of_birth).replace('&nbsp;', '') if date_of_birth else ''
         data['total_os'] = clean(total_os_elements).replace('&nbsp;', '') if len(total_os_elements) < 80 else None
-        data['employer_name'] = clean(employer_name).replace('&nbsp;', '') if len(employer_name) < 80 else None
+        data['employer_name'] = clean(employer_name).replace('&nbsp;', '') if employer_name and len(employer_name) < 80 else None
         data['Mobile_Number'] = clean(Mobile_Number).replace('&nbsp;', '') if len(Mobile_Number) < 80 else None
         data['Office_Numbers'] = clean(Office_Numbers).replace('&nbsp;', '') if len(Office_Numbers) < 80 else None
         data['Reference_name_mobile'] = clean(Ref_name_mobile).replace('&nbsp;', '') if Ref_name_mobile and len(Ref_name_mobile) < 300 else None
