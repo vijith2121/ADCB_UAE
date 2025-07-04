@@ -195,7 +195,7 @@ class AdcbUaeSpider(scrapy.Spider):
         data['Home_Country_Number'] = clean(Home_Country_Number).replace('&nbsp;', '') if Home_Country_Number and len(Home_Country_Number) < 80 else None
         data['Designation_Occupation'] = clean(Designation_Occupation).replace('&nbsp;', '') if Designation_Occupation and len(total_os_elements) < 400 else None
         data['Emirates_id'] = clean(Emirates_id).replace('&nbsp;', '') if Emirates_id and len(Emirates_id) < 80 else None
-        data['address'] = clean(address).replace('&nbsp;', '').replace('&nbs p;', '').replace('< /td>', '').replace('09 09', '').replace('20,', '').replace('<font color"black">.</font>,', "").strip() if address and address else None
+        data['address'] = clean(address).replace('&nbsp ;', '').replace('&nbsp;', '').replace('&nbs p;', '').replace('< /td>', '').replace('09 09', '').replace('20,', '').replace('<font color"black">.</font>,', "").replace('td>     09', '').replace('&nb s', '').replace('td>    09 20', '').strip() if address and address else None
         data['Residence_number'] = clean(Residence_number).replace('&nbsp;', '') if Residence_number and len(Residence_number) < 80 else None
         data['scrape_date'] = str(scrape_date).replace('&nbsp;', '') if scrape_date else ''
         data['Region'] = str(Region).replace('&nbsp;', '') if Region and len(Region) < 80 else ''
