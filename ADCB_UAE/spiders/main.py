@@ -35,6 +35,7 @@ class AdcbUaeSpider(scrapy.Spider):
                     callback=self.parse,
                 )
                 # return
+                
         print(f'Request count : {c}')
 
     def parse(self, response):
@@ -186,12 +187,12 @@ class AdcbUaeSpider(scrapy.Spider):
                 data['name'] = clean(data_items.get('Name', '')).replace('&nbsp;', '')
                 data['gender'] = clean(gender).replace('&nbsp;', '') if gender else ''
                 data['date_of_birth'] = clean(date_of_birth).replace('&nbsp;', '') if date_of_birth else ''
-        data['total_os'] = clean(total_os_elements).replace('&nbsp;', '') if len(total_os_elements) < 80 else None
+        data['total_os'] = clean(total_os_elements).replace('&nbsp;', '') if total_os_elements and len(total_os_elements) < 80 else None
         data['employer_name'] = clean(employer_name).replace('&nbsp;', '') if employer_name and len(employer_name) < 80 else None
-        data['Mobile_Number'] = clean(Mobile_Number).replace('&nbsp;', '') if len(Mobile_Number) < 80 else None
-        data['Office_Numbers'] = clean(Office_Numbers).replace('&nbsp;', '') if len(Office_Numbers) < 80 else None
+        data['Mobile_Number'] = clean(Mobile_Number).replace('&nbsp;', '') if Mobile_Number and len(Mobile_Number) < 80 else None
+        data['Office_Numbers'] = clean(Office_Numbers).replace('&nbsp;', '') if Office_Numbers and len(Office_Numbers) < 80 else None
         data['Reference_name_mobile'] = clean(Ref_name_mobile).replace('&nbsp;', '') if Ref_name_mobile and len(Ref_name_mobile) < 300 else None
-        data['Email_ID'] = clean(Email_ID).replace('&nbsp;', '') if len(Email_ID) < 80 else None
+        data['Email_ID'] = clean(Email_ID).replace('&nbsp;', '') if Email_ID and len(Email_ID) < 80 else None
         data['Home_Country_Number'] = clean(Home_Country_Number).replace('&nbsp;', '') if Home_Country_Number and len(Home_Country_Number) < 80 else None
         data['Designation_Occupation'] = clean(Designation_Occupation).replace('&nbsp;', '') if Designation_Occupation and len(total_os_elements) < 400 else None
         data['Emirates_id'] = clean(Emirates_id).replace('&nbsp;', '') if Emirates_id and len(Emirates_id) < 80 else None
